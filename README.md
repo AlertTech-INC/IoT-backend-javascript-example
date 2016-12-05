@@ -9,5 +9,5 @@ Suggested demo procedures.
 - Connect to the broker.
 - Subscribe to 'test/echo' to see the broker echo your commands that you have sent.
 - Subscribe to 'test/timestamp' to receive the epoch timestamp of the broker every 10 seconds.
-- Publish to 'test/command' using either 'alert' or 'clear' as the payload.
+- Publish to 'test/1/command' using either 'alert' or 'clear' as the payload.
 - Contact AlertTech for further information.
