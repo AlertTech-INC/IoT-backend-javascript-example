@@ -2,5 +2,5 @@
 <button onclick="client.subscribe('test/#', {qos: 2}); alert('Subscribed');">2. Subscribe</button>
 <button onclick="publish('alert','test/command',2);">3. Send Alert</button>
 <button onclick="publish('clear','test/command',2);">4. Send Clear</button>
-<button onclick="client.disconnect();">(5. Disconnect)</button>
+<button onclick="client.disconnect();">5. Disconnect</button>
 <div id="messages"></div>
